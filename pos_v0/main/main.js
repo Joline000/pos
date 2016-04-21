@@ -9,7 +9,7 @@ function buildCartItems(Items) {
 
     var cartItems = [];   
     Items.forEach(function(Item) {
-        cartItems.push({infoy: Item, subtotal: Item.price * Item.count});
+        cartItems.push({info: Item, subtotal: Item.price * Item.count});
     });
     
    return cartItems;
