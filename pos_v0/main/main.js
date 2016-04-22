@@ -21,7 +21,6 @@ function buildReceiptItems(cartItems) {
     cartItems.forEach(function(cartItems) {
         total += cartItems.subtotal;
     });
-    
     receiptItem.push(total);     
     
     return receiptItem;
